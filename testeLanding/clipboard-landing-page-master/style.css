@@ -1,8 +1,19 @@
 * {
     margin: 0;
     border: 0;
+    text-align: center;
+    font-family: monospace;
 }
 
-body{
-    text-align: center;
+#header {
+    background-image: url(images/bg-header-desktop.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+#header-img{
+    position: absolute;
+    top: 90px;
+   
 }
