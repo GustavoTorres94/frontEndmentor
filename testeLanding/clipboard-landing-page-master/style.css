@@ -2,9 +2,11 @@
     margin: 0;
     border: 0;
     text-align: center;
-    font-family: monospace;
+    font-family: sans-serif;
 }
-
+body {
+    font-size: 18px;
+}
 #header {
     background-image: url(images/bg-header-desktop.png);
     background-position-x: center;
@@ -14,6 +16,12 @@
 }
 #header-img{
     position: absolute;
-    top: 90px;
-   
+    top: 90px;   
+}
+.section-model h1 {
+    font-size: 35px;
+    color: hsl(210, 10%, 33%);
+    padding: 25px;
+    position:flex;
+    top: 10px;
 }
